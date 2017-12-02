@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC16B6FF1FD19E1E00291AC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC16B6FE1FD19E1E00291AC0 /* AppDelegate.swift */; };
+		AC16B7011FD19E1E00291AC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC16B7001FD19E1E00291AC0 /* ViewController.swift */; };
+		AC16B7041FD19E1E00291AC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC16B7021FD19E1E00291AC0 /* Main.storyboard */; };
+		AC16B7061FD19E1E00291AC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC16B7051FD19E1E00291AC0 /* Assets.xcassets */; };
+		AC16B7091FD19E1E00291AC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC16B7071FD19E1E00291AC0 /* LaunchScreen.storyboard */; };
+		AC16B7141FD19E1E00291AC0 /* Kamus_Besar_Bahasa_IndonesiaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC16B7131FD19E1E00291AC0 /* Kamus_Besar_Bahasa_IndonesiaTests.swift */; };
+		AC16B71F1FD19E1E00291AC0 /* Kamus_Besar_Bahasa_IndonesiaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC16B71E1FD19E1E00291AC0 /* Kamus_Besar_Bahasa_IndonesiaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC16B7101FD19E1E00291AC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC16B6F31FD19E1E00291AC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC16B6FA1FD19E1E00291AC0;
+			remoteInfo = "Kamus Besar Bahasa Indonesia";
+		};
+		AC16B71B1FD19E1E00291AC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC16B6F31FD19E1E00291AC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC16B6FA1FD19E1E00291AC0;
+			remoteInfo = "Kamus Besar Bahasa Indonesia";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC16B6FB1FD19E1E00291AC0 /* Kamus Besar Bahasa Indonesia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kamus Besar Bahasa Indonesia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC16B6FE1FD19E1E00291AC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC16B7001FD19E1E00291AC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC16B7031FD19E1E00291AC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC16B7051FD19E1E00291AC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC16B7081FD19E1E00291AC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC16B70A1FD19E1E00291AC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC16B70F1FD19E1E00291AC0 /* Kamus Besar Bahasa IndonesiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kamus Besar Bahasa IndonesiaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC16B7131FD19E1E00291AC0 /* Kamus_Besar_Bahasa_IndonesiaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kamus_Besar_Bahasa_IndonesiaTests.swift; sourceTree = "<group>"; };
+		AC16B7151FD19E1E00291AC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC16B71A1FD19E1E00291AC0 /* Kamus Besar Bahasa IndonesiaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kamus Besar Bahasa IndonesiaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC16B71E1FD19E1E00291AC0 /* Kamus_Besar_Bahasa_IndonesiaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kamus_Besar_Bahasa_IndonesiaUITests.swift; sourceTree = "<group>"; };
+		AC16B7201FD19E1E00291AC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC16B6F81FD19E1E00291AC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC16B70C1FD19E1E00291AC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC16B7171FD19E1E00291AC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC16B6F21FD19E1E00291AC0 = {
+			isa = PBXGroup;
+			children = (
+				AC16B6FD1FD19E1E00291AC0 /* Kamus Besar Bahasa Indonesia */,
+				AC16B7121FD19E1E00291AC0 /* Kamus Besar Bahasa IndonesiaTests */,
+				AC16B71D1FD19E1E00291AC0 /* Kamus Besar Bahasa IndonesiaUITests */,
+				AC16B6FC1FD19E1E00291AC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC16B6FC1FD19E1E00291AC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC16B6FB1FD19E1E00291AC0 /* Kamus Besar Bahasa Indonesia.app */,
+				AC16B70F1FD19E1E00291AC0 /* Kamus Besar Bahasa IndonesiaTests.xctest */,
+				AC16B71A1FD19E1E00291AC0 /* Kamus Besar Bahasa IndonesiaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC16B6FD1FD19E1E00291AC0 /* Kamus Besar Bahasa Indonesia */ = {
+			isa = PBXGroup;
+			children = (
+				AC16B6FE1FD19E1E00291AC0 /* AppDelegate.swift */,
+				AC16B7001FD19E1E00291AC0 /* ViewController.swift */,
+				AC16B7021FD19E1E00291AC0 /* Main.storyboard */,
+				AC16B7051FD19E1E00291AC0 /* Assets.xcassets */,
+				AC16B7071FD19E1E00291AC0 /* LaunchScreen.storyboard */,
+				AC16B70A1FD19E1E00291AC0 /* Info.plist */,
+			);
+			path = "Kamus Besar Bahasa Indonesia";
+			sourceTree = "<group>";
+		};
+		AC16B7121FD19E1E00291AC0 /* Kamus Besar Bahasa IndonesiaTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC16B7131FD19E1E00291AC0 /* Kamus_Besar_Bahasa_IndonesiaTests.swift */,
+				AC16B7151FD19E1E00291AC0 /* Info.plist */,
+			);
+			path = "Kamus Besar Bahasa IndonesiaTests";
+			sourceTree = "<group>";
+		};
+		AC16B71D1FD19E1E00291AC0 /* Kamus Besar Bahasa IndonesiaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC16B71E1FD19E1E00291AC0 /* Kamus_Besar_Bahasa_IndonesiaUITests.swift */,
+				AC16B7201FD19E1E00291AC0 /* Info.plist */,
+			);
+			path = "Kamus Besar Bahasa IndonesiaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC16B6FA1FD19E1E00291AC0 /* Kamus Besar Bahasa Indonesia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC16B7231FD19E1E00291AC0 /* Build configuration list for PBXNativeTarget "Kamus Besar Bahasa Indonesia" */;
+			buildPhases = (
+				AC16B6F71FD19E1E00291AC0 /* Sources */,
+				AC16B6F81FD19E1E00291AC0 /* Frameworks */,
+				AC16B6F91FD19E1E00291AC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kamus Besar Bahasa Indonesia";
+			productName = "Kamus Besar Bahasa Indonesia";
+			productReference = AC16B6FB1FD19E1E00291AC0 /* Kamus Besar Bahasa Indonesia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC16B70E1FD19E1E00291AC0 /* Kamus Besar Bahasa IndonesiaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC16B7261FD19E1E00291AC0 /* Build configuration list for PBXNativeTarget "Kamus Besar Bahasa IndonesiaTests" */;
+			buildPhases = (
+				AC16B70B1FD19E1E00291AC0 /* Sources */,
+				AC16B70C1FD19E1E00291AC0 /* Frameworks */,
+				AC16B70D1FD19E1E00291AC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC16B7111FD19E1E00291AC0 /* PBXTargetDependency */,
+			);
+			name = "Kamus Besar Bahasa IndonesiaTests";
+			productName = "Kamus Besar Bahasa IndonesiaTests";
+			productReference = AC16B70F1FD19E1E00291AC0 /* Kamus Besar Bahasa IndonesiaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC16B7191FD19E1E00291AC0 /* Kamus Besar Bahasa IndonesiaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC16B7291FD19E1E00291AC0 /* Build configuration list for PBXNativeTarget "Kamus Besar Bahasa IndonesiaUITests" */;
+			buildPhases = (
+				AC16B7161FD19E1E00291AC0 /* Sources */,
+				AC16B7171FD19E1E00291AC0 /* Frameworks */,
+				AC16B7181FD19E1E00291AC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC16B71C1FD19E1E00291AC0 /* PBXTargetDependency */,
+			);
+			name = "Kamus Besar Bahasa IndonesiaUITests";
+			productName = "Kamus Besar Bahasa IndonesiaUITests";
+			productReference = AC16B71A1FD19E1E00291AC0 /* Kamus Besar Bahasa IndonesiaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC16B6F31FD19E1E00291AC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Abi Sayuti";
+				TargetAttributes = {
+					AC16B6FA1FD19E1E00291AC0 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					AC16B70E1FD19E1E00291AC0 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC16B6FA1FD19E1E00291AC0;
+					};
+					AC16B7191FD19E1E00291AC0 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC16B6FA1FD19E1E00291AC0;
+					};
+				};
+			};
+			buildConfigurationList = AC16B6F61FD19E1E00291AC0 /* Build configuration list for PBXProject "Kamus Besar Bahasa Indonesia" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC16B6F21FD19E1E00291AC0;
+			productRefGroup = AC16B6FC1FD19E1E00291AC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC16B6FA1FD19E1E00291AC0 /* Kamus Besar Bahasa Indonesia */,
+				AC16B70E1FD19E1E00291AC0 /* Kamus Besar Bahasa IndonesiaTests */,
+				AC16B7191FD19E1E00291AC0 /* Kamus Besar Bahasa IndonesiaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC16B6F91FD19E1E00291AC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC16B7091FD19E1E00291AC0 /* LaunchScreen.storyboard in Resources */,
+				AC16B7061FD19E1E00291AC0 /* Assets.xcassets in Resources */,
+				AC16B7041FD19E1E00291AC0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC16B70D1FD19E1E00291AC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC16B7181FD19E1E00291AC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC16B6F71FD19E1E00291AC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC16B7011FD19E1E00291AC0 /* ViewController.swift in Sources */,
+				AC16B6FF1FD19E1E00291AC0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC16B70B1FD19E1E00291AC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC16B7141FD19E1E00291AC0 /* Kamus_Besar_Bahasa_IndonesiaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC16B7161FD19E1E00291AC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC16B71F1FD19E1E00291AC0 /* Kamus_Besar_Bahasa_IndonesiaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC16B7111FD19E1E00291AC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC16B6FA1FD19E1E00291AC0 /* Kamus Besar Bahasa Indonesia */;
+			targetProxy = AC16B7101FD19E1E00291AC0 /* PBXContainerItemProxy */;
+		};
+		AC16B71C1FD19E1E00291AC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC16B6FA1FD19E1E00291AC0 /* Kamus Besar Bahasa Indonesia */;
+			targetProxy = AC16B71B1FD19E1E00291AC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC16B7021FD19E1E00291AC0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC16B7031FD19E1E00291AC0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC16B7071FD19E1E00291AC0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC16B7081FD19E1E00291AC0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC16B7211FD19E1E00291AC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC16B7221FD19E1E00291AC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC16B7241FD19E1E00291AC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kamus Besar Bahasa Indonesia/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ABI-SA.Kamus-Besar-Bahasa-Indonesia";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC16B7251FD19E1E00291AC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kamus Besar Bahasa Indonesia/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ABI-SA.Kamus-Besar-Bahasa-Indonesia";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC16B7271FD19E1E00291AC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kamus Besar Bahasa IndonesiaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ABI-SA.Kamus-Besar-Bahasa-IndonesiaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kamus Besar Bahasa Indonesia.app/Kamus Besar Bahasa Indonesia";
+			};
+			name = Debug;
+		};
+		AC16B7281FD19E1E00291AC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kamus Besar Bahasa IndonesiaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ABI-SA.Kamus-Besar-Bahasa-IndonesiaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kamus Besar Bahasa Indonesia.app/Kamus Besar Bahasa Indonesia";
+			};
+			name = Release;
+		};
+		AC16B72A1FD19E1E00291AC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kamus Besar Bahasa IndonesiaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ABI-SA.Kamus-Besar-Bahasa-IndonesiaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kamus Besar Bahasa Indonesia";
+			};
+			name = Debug;
+		};
+		AC16B72B1FD19E1E00291AC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kamus Besar Bahasa IndonesiaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ABI-SA.Kamus-Besar-Bahasa-IndonesiaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kamus Besar Bahasa Indonesia";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC16B6F61FD19E1E00291AC0 /* Build configuration list for PBXProject "Kamus Besar Bahasa Indonesia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC16B7211FD19E1E00291AC0 /* Debug */,
+				AC16B7221FD19E1E00291AC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC16B7231FD19E1E00291AC0 /* Build configuration list for PBXNativeTarget "Kamus Besar Bahasa Indonesia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC16B7241FD19E1E00291AC0 /* Debug */,
+				AC16B7251FD19E1E00291AC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC16B7261FD19E1E00291AC0 /* Build configuration list for PBXNativeTarget "Kamus Besar Bahasa IndonesiaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC16B7271FD19E1E00291AC0 /* Debug */,
+				AC16B7281FD19E1E00291AC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC16B7291FD19E1E00291AC0 /* Build configuration list for PBXNativeTarget "Kamus Besar Bahasa IndonesiaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC16B72A1FD19E1E00291AC0 /* Debug */,
+				AC16B72B1FD19E1E00291AC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC16B6F31FD19E1E00291AC0 /* Project object */;
+}
